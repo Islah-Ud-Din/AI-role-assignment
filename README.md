@@ -91,3 +91,30 @@ We'll be looking at:
 - Documentation clarity
 
 If you have questions or need clarification, feel free to reach out. We're evaluating your problem-solving approach as much as your coding ability.
+
+## Web UI
+
+A modern Next.js web interface is included in the `web/` directory. See [web/README.md](web/README.md) for setup instructions.
+
+### Quick Start
+
+1. Start the FastAPI backend:
+```bash
+uvicorn app.main:app --reload
+```
+
+2. In another terminal, start the Next.js UI:
+```bash
+cd web
+npm install
+npm run dev
+```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+The UI provides:
+- Real-time job status tracking
+- Article creation form
+- Visual SEO metrics and quality scores
+- Job history and management
+- Beautiful, responsive design with dark mode support
